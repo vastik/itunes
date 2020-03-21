@@ -61,7 +61,14 @@ lombok (https://projectlombok.org/features/all).
 файлы миграции находятся в директории ``src/main/resources/db/include``
 
 - https://www.baeldung.com/persistence-with-spring-series - гайды по работе с Hibernate
+- http://java-online.ru/hibernate-entities.xhtml - связи между таблицами в Hibernate
 - https://www.baeldung.com/rest-with-spring-series - гайды по работе с REST API
+- https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-controller - документация по контроллерам
+документация по репозиториям и работе с бд:
+- https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.core-concepts - основные принципы
+- https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods - кастомные методы и ключевые слова
+
+
 
 ### Структура проекта
 ```
@@ -110,12 +117,12 @@ lombok (https://projectlombok.org/features/all).
 | Пакет         | Описание                                                                                                                                                                                                                              |
 |---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | configuration | Пакет конфигурационных классов, которые считывает Spring при старте приложения                                                                                                                                                               |
-| controller    | Пакет для контроллеров приложения<br>https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-controller                                                                                                                                                                                                        |
+| controller    | Пакет для контроллеров приложения                                                                                                                                                                              |
 | сonstraint    | Пакет  кастомных аннотаций для валидации полей. |
 | dto           | Пакет для классов, описывающих данные для запросов/ответов приложения.                                                                                                                                                                                      |
-| entity        | Пакет для классов, которые описывают таблицы базы данных. <br>http://java-online.ru/hibernate-entities.xhtml                                                                                            |
+| entity        | Пакет для классов, которые описывают таблицы базы данных. |
 | exceptions    | Пакет для эксепшенов, которые стоит кидать если нужно вернуть ошибку для клиента.                                                                                                                                                                |
-| repository    | Пакет для интерфейсов, которые предоставляют набор методов для работы с бд. Spring автоматически реализует эти интерфейсы при старте приложения.<br>https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.core-concepts<br>https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.query-methods.details<br>https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.query-creation |
+| repository    | Пакет для интерфейсов, которые предоставляют набор методов для работы с бд. Spring автоматически реализует эти интерфейсы при старте приложения.<br> |
 | service       | Пакет бизнесс-логики приложения. Производите все операции с данными в классах этого пакета.                                                                                                                                      |
 
 ### Цепочка зависимостей пакетов внутри приложения
