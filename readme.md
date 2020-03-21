@@ -67,6 +67,7 @@ lombok (https://projectlombok.org/features/all).
 - http://java-online.ru/hibernate-entities.xhtml - связи между таблицами в Hibernate
 - https://www.baeldung.com/rest-with-spring-series - гайды по работе с REST API
 - https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-controller - документация по контроллерам
+
 документация по репозиториям и работе с бд:
 - https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.core-concepts - основные принципы
 - https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods - кастомные методы и ключевые слова
