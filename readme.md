@@ -2,7 +2,7 @@
 * Java 8
 * Gradle
 * Spring Boot
-* Hiberante
+* Hibernate
 
 ### Установка и запуск
 - IntelliJ IDEA - https://www.jetbrains.com/ru-ru/idea/
